@@ -144,7 +144,7 @@ export default ({ children }) => (
             {children}
         </Content>
         <Footer>
-            <span style={{ color: "#ffffff" }}>&copy; Mark King 2020</span>
+            <a href="https://www.mark.codes" style={{ color: "#ffffff" }}>&copy; Mark King 2020</a>
         </Footer>
     </LayoutDiv>
 );
