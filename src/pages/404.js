@@ -8,7 +8,7 @@ export default () => (
     <>
         <Helmet>
             <meta charSet='utf-8' />
-            <title>Page Not Found - Mark King</title>
+            <title>Page Not Found - Tyler Berrett</title>
         </Helmet>
         <Layout>
             <Typewriter text='Error: 404' />

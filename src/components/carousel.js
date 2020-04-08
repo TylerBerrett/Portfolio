@@ -99,7 +99,7 @@ const CarouselContainer = styled.div`
 `;
 
 const StyledButton = styled.button`
-    background-color: #66fcf1;
+    background-color: #ed7d3a;
     display: flex;
     align-items: center;
     justify-content: center;

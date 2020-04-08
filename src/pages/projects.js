@@ -11,8 +11,8 @@ export default ({ data }) => {
         <>
             <Helmet>
                 <meta charSet='utf-8' />
-                <title>Projects - Mark King</title>
-                <link rel='canonical' href='https://mark.codes/projects' />
+                <title>Projects - Tyler Berrett</title>
+                <link rel='canonical' href='https://tylerberrett.com/projects' />
             </Helmet>
             <Layout>
                 <Typewriter text='Projects' />

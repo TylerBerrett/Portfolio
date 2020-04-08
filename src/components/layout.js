@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import { Email, Github, Linkedin, Resume } from "../assets/icons";
-import resume from "../assets/Mark_King_Resume.pdf";
+import resume from "../assets/Tyler_Berrett_Resume.pdf";
 
 const LayoutDiv = styled.div`
     margin: 3rem auto 0 auto;
@@ -71,7 +71,7 @@ const Links = styled.div`
   padding: 0;
   font-size: 1.2rem;
   a {
-    color: rgba(102, 252, 241, 1);
+    color: rgba(237, 125, 58, 1);
     &:hover {
       opacity: 0.5;
     }
@@ -88,35 +88,45 @@ const Footer = styled.footer`
     text-align: center;
 `;
 
+const Credit = styled.a`
+    color: #ffffff;
+    text-shadow: none;
+    text-decoration: none;
+    background-image: none;
+    &:hover {
+        opacity: 0.5;
+    }
+`;
+
 export default ({ children }) => (
     <LayoutDiv>
         <Content>
             <Header>
                 <StyledLink id='name' to='/'>
-                    <h1>Mark King</h1>
+                    <h1>Tyler Berrett</h1>
                 </StyledLink>
                 <Icons>
                     <li>
                         <a href={resume}>
-                            <Resume fill='rgba(102, 252, 241, 1)' />
+                            <Resume fill='rgba(237, 125, 58, 1)' />
                         </a>
                     </li>
                     <li>
-                        <a href='https://github.com/markpkng'>
+                        <a href='https://github.com/TylerBerrett'>
                             <Github
-                                fill='rgba(102, 252, 241, 1)'
+                                fill='rgba(237, 125, 58, 1)'
                                 textDecoration='none'
                             />
                         </a>
                     </li>
                     <li>
-                        <a href='https://linkedin.com/in/markpking'>
-                            <Linkedin fill='rgba(102, 252, 241, 1)' />
+                        <a href='https://www.linkedin.com/in/tyler-berrett/'>
+                            <Linkedin fill='rgba(237, 125, 58, 1)' />
                         </a>
                     </li>
                     <li>
-                        <a href='mailto:markpkng@gmail.com'>
-                            <Email fill='rgba(102, 252, 241, 1)' />
+                        <a href='mailto:btylerberrett@gmail.com'>
+                            <Email fill='rgba(237, 125, 58, 1)' />
                         </a>
                     </li>
                 </Icons>
@@ -144,7 +154,7 @@ export default ({ children }) => (
             {children}
         </Content>
         <Footer>
-            <a href="https://www.mark.codes" style={{ color: "#ffffff" }}>&copy; Mark King 2020</a>
+            <Credit href="https://www.mark.codes">Credit to Mark King</Credit>
         </Footer>
     </LayoutDiv>
 );

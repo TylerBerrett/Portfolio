@@ -52,7 +52,7 @@ const StyledSpan = styled.span`
 `;
 
 const LinkSpan = styled.span`
-    color: #66fcf1;
+    color: #ed7d3a;
     text-shadow: none;
 `;
 
@@ -119,7 +119,7 @@ export default ({ sizes, project, images }) => {
                             <strong>Front End Code</strong>
                         </LinkSpan>
                         <LinkSpan style={{ marginLeft: "0.5rem" }}>
-                            <Github fill='#66FCF1' />
+                            <Github fill='#ed7d3a' />
                         </LinkSpan>
                     </a>
                 </RepoDiv>
@@ -131,7 +131,7 @@ export default ({ sizes, project, images }) => {
                             <strong>Back End Code</strong>
                         </LinkSpan>
                         <LinkSpan style={{ marginLeft: "0.5rem" }}>
-                            <Github fill='#66FCF1' />
+                            <Github fill='#ed7d3a' />
                         </LinkSpan>
                     </a>
                 </RepoDiv>
