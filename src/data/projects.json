@@ -1,8 +1,8 @@
 [
     
     {
-        "name": "Daily Book of Mormon Reading",
-        "description": "Daily Scripture from Book of Mormon after 365 day you will have read the whole Book of Mormon",
+        "name": "Daily Book of Mormon Reading (Self)",
+        "description": "A daily scripture reading from the Book of Mormon. This schedule ensures that after 365 days you will have read the entire Book of Mormon.",
         "tech": "Kotlin, AndroidX, Retrofit, Coroutines, Material Design, MvvM, Ktor, Exposed, PostgresSQL",
         "frontend": "https://github.com/TylerBerrett/bom_365",
         "backend": "https://github.com/TylerBerrett/bom_365_back_end",
@@ -15,7 +15,7 @@
         "maxWidth": 50
     },
     {
-        "name": "Community Calendar",
+        "name": "Community Calendar (Group)",
         "description": "A portal tailored to the needs of neighborhoods and small community groups.  Cut through the noise of crowded social media sites and discover events that have been in your neighborhood this entire time.",
         "tech": "Kotlin, AndroidX, Apollo-Android, RxJava, Auth0, Picasso, Room, Koin, Material Design, MvvM",
         "frontend": "https://github.com/Lambda-School-Labs/community-calendar-android",
@@ -31,7 +31,7 @@
     },
     
     {
-        "name": "The Legend of Fnu",
+        "name": "The Legend of Fnu (Group)",
         "description": "An online multiplayer dungeon game for Android/iOS.",
         "tech": "React Native, Django, PostgreSQL",
         "frontend": "https://github.com/winning-team/react-native-frontend",

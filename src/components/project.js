@@ -35,6 +35,7 @@ const P = styled.p`
 const ProjectLink = styled.a`
     text-decoration: none;
     background-image: none;
+    target: _blank;
 
     h2 {
         display: inline;
@@ -81,7 +82,7 @@ export default ({ sizes, project, images }) => {
     return (
         <ProjectContainer>
             {project.demo ? (
-                <ProjectLink href={project.demo}>
+                <ProjectLink href={project.demo} target="_blank">
                     <h2>{project.name}</h2>
                     <StyledLinkIcon fill='#66fcf1' />
                 </ProjectLink>
@@ -114,7 +115,7 @@ export default ({ sizes, project, images }) => {
             </P>
             {project.frontend && (
                 <RepoDiv>
-                    <a href={project.frontend}>
+                    <a href={project.frontend} target="_blank">
                         <LinkSpan>
                             <strong>Front End Code</strong>
                         </LinkSpan>
@@ -126,7 +127,7 @@ export default ({ sizes, project, images }) => {
             )}
             {project.backend && (
                 <RepoDiv>
-                    <a href={project.backend}>
+                    <a href={project.backend} target="_blank">
                         <LinkSpan>
                             <strong>Back End Code</strong>
                         </LinkSpan>

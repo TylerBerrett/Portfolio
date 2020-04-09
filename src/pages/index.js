@@ -43,17 +43,17 @@ export default ({ data }) => {
             <P>
                 I'm an android developer with experience building apps in Kotlin and Java 
                 using technologies such as Retrofit, Apollo-Android, Room, RxJava, 
-                Coroutines, AndroidX, Material Design, MvvM Architecture.
+                Coroutines, AndroidX, Material Design, and MvvM Architecture.
                 
             </P>
             <br/>
             <P>
                 I enjoy spending my time playing video games, taking care of plants,
-                explaning my code to my non coding friends to watch there reactions, and all things outdoors.
+                explaning my code to my non-coding friends to watch their reactions, and all things outdoors.
             </P>
             <ImgWrapper>
                 <StyledImg
-                    title={"Mark and his two dogs"}
+                    title={"Tyler in Zion"}
                     alt='Mark and his two dogs'
                     sizes={sizes}
                     />

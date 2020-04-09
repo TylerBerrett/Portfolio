@@ -107,12 +107,12 @@ export default ({ children }) => (
                 </StyledLink>
                 <Icons>
                     <li>
-                        <a href={resume}>
+                        <a href={resume} target="_blank">
                             <Resume fill='rgba(237, 125, 58, 1)' />
                         </a>
                     </li>
                     <li>
-                        <a href='https://github.com/TylerBerrett'>
+                        <a href='https://github.com/TylerBerrett' target="_blank">
                             <Github
                                 fill='rgba(237, 125, 58, 1)'
                                 textDecoration='none'
@@ -120,7 +120,7 @@ export default ({ children }) => (
                         </a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/tyler-berrett/'>
+                        <a href='https://www.linkedin.com/in/tyler-berrett/' target="_blank">
                             <Linkedin fill='rgba(237, 125, 58, 1)' />
                         </a>
                     </li>
@@ -154,7 +154,7 @@ export default ({ children }) => (
             {children}
         </Content>
         <Footer>
-            <Credit href="https://www.mark.codes">Credit to Mark King</Credit>
+            <Credit href="https://www.mark.codes" target="_blank">Design credit to Mark King</Credit>
         </Footer>
     </LayoutDiv>
 );
