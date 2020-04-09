@@ -18,6 +18,7 @@
         "name": "Community Calendar (Group)",
         "description": "A portal tailored to the needs of neighborhoods and small community groups.  Cut through the noise of crowded social media sites and discover events that have been in your neighborhood this entire time.",
         "tech": "Kotlin, AndroidX, Apollo-Android, RxJava, Auth0, Picasso, Room, Koin, Material Design, MvvM",
+        "demo": "https://play.google.com/store/apps/details?id=com.lambda_labs.community_calendar",
         "frontend": "https://github.com/Lambda-School-Labs/community-calendar-android",
         "images": [
             "cc1.png",
