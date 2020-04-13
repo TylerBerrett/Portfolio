@@ -49,7 +49,7 @@ export default ({ data }) => {
             <br/>
             <P>
                 I enjoy spending my time playing video games, taking care of plants,
-                explaning my code to my non-coding friends to watch their reactions, and all things outdoors.
+                explaining my code to my non-coding friends to watch their reactions, and all things outdoors.
             </P>
             <ImgWrapper>
                 <StyledImg
