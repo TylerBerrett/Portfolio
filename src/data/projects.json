@@ -4,6 +4,7 @@
         "name": "Daily Book of Mormon Reading (Self)",
         "description": "A daily scripture reading from the Book of Mormon. This schedule ensures that after 365 days you will have read the entire Book of Mormon.",
         "tech": "Kotlin, AndroidX, Retrofit, Coroutines, Material Design, MvvM, Ktor, Exposed, PostgresSQL",
+        "demo": "https://play.google.com/store/apps/details?id=com.tylerb.myapplication",
         "frontend": "https://github.com/TylerBerrett/bom_365",
         "backend": "https://github.com/TylerBerrett/bom_365_back_end",
         "images": [
